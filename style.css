@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+    font-family: 'Arial', 'Helvetica', 'serif';
+    background: linear-gradient(45deg, lightcoral, rgb(80,130,235), palevioletred);
+    background-size: 100vw 110vh;
+}
+.header{
+    padding: 20px;
+    color: azure;
+}
+.container{
+    position: relative;
+    margin: 0 auto;
+    padding: 20px;
+    width: 50vw;
+    height: 50vh;
+    background-color: azure;
+    border: 2px solid white;
+    border-radius: 8px;
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box{
+    color: #153677;
+    margin: 0 auto;
+    position: absolute;
+    width: 25vw;
+    height: 25vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.generator{
+    background-color: #153677;
+    color: azure;
+    font-size: 26px;
+    border-radius: 8px;
+    padding: 8px;
+    cursor: pointer;
+    margin: 320px 60px;
+}
